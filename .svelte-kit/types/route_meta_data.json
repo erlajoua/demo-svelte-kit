@@ -1,0 +1,13 @@
+{
+	"/": [],
+	"/api/greeting": [
+		"src/routes/api/greeting/+server.ts"
+	],
+	"/todos": [],
+	"/users": [
+		"src/routes/users/+page.server.ts"
+	],
+	"/users/[id]": [
+		"src/routes/users/[id]/+page.server.ts"
+	]
+}
