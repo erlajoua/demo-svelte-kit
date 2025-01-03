@@ -39,6 +39,7 @@ declare module '$env/static/private' {
 	export const ZSH: string;
 	export const LSCOLORS: string;
 	export const NVM_INC: string;
+	export const npm_package_engines_node: string;
 	export const PAGER: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
@@ -127,6 +128,7 @@ declare module '$env/dynamic/private' {
 		ZSH: string;
 		LSCOLORS: string;
 		NVM_INC: string;
+		npm_package_engines_node: string;
 		PAGER: string;
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
